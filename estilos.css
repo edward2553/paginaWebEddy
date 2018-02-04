@@ -1,0 +1,93 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #ccc;
+}
+.contenedor-cabecera{
+	
+	height: 1050px;
+	width: 1000px;
+	margin-left:auto;
+	margin-right: auto;
+
+}
+header,#banner,#noticias,#tienda,#marcas{
+	background:#fff;
+	height: 10%;
+	width: 100%;
+	text-align: center;
+    
+}
+#tituloHeader{
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+#banner{
+	height: 51%;
+	width: 100%;
+	background-image: url(imagenes/paisaje.jpg);
+	background-size: cover;
+	align-items: center;
+}
+
+#noticias{
+	background:#BFC63A;
+	height: 20%;
+	width: 100%;
+	padding-top: 3%;
+    padding-right: 0%;
+    padding-bottom: 3%;
+    padding-left: 0%;
+    text-align:center;
+}
+#tienda{
+	background:yellow;
+	height: 40%;
+	width: 100%;
+}
+#marcas{
+	background:red;
+	height: 16%;
+	width: 100%;
+}
+footer{
+	background:#3A58B9;
+	height: 5%;
+	width: 100%;	
+}
+#noticias #noticias1{
+	background:#EDC4C4;
+	height: 39%;
+	width: 24%;
+	display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 102%;
+    left: 14%;
+}
+ #noticias #noticias2{
+	background:#F76161;
+	height: 39%;
+	width: 24%;
+	display: inline-block;
+	vertical-align: top;	
+	position: absolute;
+	top: 102%;
+	left: 39%; 
+}
+#noticias #noticias3{
+	background:#F32F5D;
+	height: 39%;
+	width: 22%;
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	top: 102%;
+	left: 64%;
+}
+
+
